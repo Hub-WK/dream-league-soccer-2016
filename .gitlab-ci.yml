@@ -2,9 +2,9 @@ pages:
   stage: deploy
   script:
     - mkdir public
-    - cp index.html public/  # Copy your HTML file to the public directory
+    - cp index.html public/
   artifacts:
     paths:
-      - public  # GitLab Pages serves files from the public directory
+      - public
   only:
-    - main  # Replace 'main' with your default branch if needed
+    - main
